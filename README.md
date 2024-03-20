@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img alt="1" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/9ea02092-b450-472d-bceb-ae612bcb07e4"/>
+
 </p>
 
 <h1>Active Directory Deployment and Configuration </h1>
@@ -53,8 +54,8 @@
 
 <h3>&#9312; Install Active Directory in DC-01</h3>
 
-- In the Server Manager dashboard, click Add roles and features and continue the setup
-<img width="736" alt="AD-setup" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/bb534e6b-0072-420a-9f74-c03bbcc77016">
+- In the Server Manager dashboard, click Add roles and features and continue the setup <img width="736" alt="2" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/e6004d64-09cf-4472-b00a-08f2689b489b">
+
 
 <p>
 
@@ -75,7 +76,8 @@
 - Once the installation is done, notice the flag on the top left of the Server Manager
 - Click on the flag and promote DC-01 to Domain Controller.
 
-<img width="242" alt="notif" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/3cb91456-cc00-4e70-8ea2-2b54a5dc8137">
+<img width="242" alt="3" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/6020727b-0778-475a-8181-2ad597fe8137">
+
 
 
 
@@ -85,7 +87,8 @@
 
 -  We will now add a new Forest and set the Root domain name to “mydomain.com”
 <p>
-<img width="565" alt="my domain" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/e4d06e9a-a5a4-4e8b-b464-b90ac041cbc8"> </p>
+<img width="565" alt="4" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/c4ce5731-0b82-4a8a-bf41-1e2c75beeafa">
+ </p>
   
 - Finish setup and restart DC-01
 - Log back in with “your username"@mydomain.com
@@ -100,7 +103,8 @@
 
 - Once DC-01 has rebooted, click on tools and select Active Directory Users and Computers
 - Right click on mydomain.com and select new and click on Organizational Unit
-<img width="438" alt="Users" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/23db8c79-84f4-4e6d-befe-77505518cb05">
+<img width="438" alt="5" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/bef564b6-0393-488a-8094-e907f092a3a1">
+
 
 
 <br>
@@ -112,7 +116,8 @@
 
 <p><strong> We will be creating an OU named _EMPLOYEES and _ADMINS </strong></p>
 
-<img width="450" alt="admins" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/d64f8f3b-130b-4156-bc08-b16f7b21fc89">
+<img width="450" alt="6" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/bf4d2c90-6753-4179-8304-93831f29f81e">
+
 
 
 <p><strong>.</strong></p>
@@ -120,7 +125,7 @@
 
 <p><strong>Right click on Users and create a new user named Jane Doe with the username jane_admin</strong></p>
 
-<img width="323" alt="jane doe" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/5d8f782a-145a-404b-bc83-7a6721b3728d">
+<img width="323" alt="7" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/d1fe5899-daad-4589-9d03-6367f5fbc145">
 
 
 <p><strong>.</strong></p>
@@ -129,7 +134,7 @@
 
 <p><strong>Now we will turn Jane Doe into an admin by right clicking her name and adding her to the “Domain Admins” Security Group</strong></p>
 
-<img width="412" alt="add to group" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/08175b12-7a59-4030-b5ef-6ef1983ac6e7">
+<img width="412" alt="8" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/bc7ac07c-1ae5-45d7-9f60-3188ad683769">
 
 
 
@@ -139,7 +144,8 @@
 
 <p><strong>Logout of DC-01 and log back in with Jane Doe’s credentials</strong></p>
 
-<img width="337" alt="jane login" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/751f9854-2aa5-4f94-b641-b355e77a2a32">
+<img width="337" alt="9" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/b71e7b29-550c-4e61-a8d1-359f14235f85">
+
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
@@ -152,7 +158,8 @@
 
 - In the Azure Portal, select Client-01 -> Networking -> Network interface and click on DNS servers
 
-<img width="735" alt="dns servers" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/13292c41-67f1-4212-95c4-084ac2ec0751">
+<img width="735" alt="10" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/b47c3880-1e1c-4c95-8613-912b2374cd25">
+
 
 
 
@@ -162,7 +169,8 @@
 
 <p><strong>Select a custom DNS server and type in the private ip address of DC-01 and restart Client-01</strong></p>
 
-<img width="356" alt="dns servers2" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/d7ec7764-9fcd-4d46-8962-f536bcb1007d">
+<img width="356" alt="11" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/ee5fde66-59c9-4644-ad7a-931520473158">
+
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
@@ -170,7 +178,7 @@
 
 <p><strong> Now log back in to Client-01 using your original admin credentials. Click start and go to Settings > Rename this PC (advanced) > Change and add “mydomain.com” and login with the admin credentials previously created (jane_admin) </strong></p>
 
-<img width="297" alt="remote desktop first login" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/97df566d-84c9-40d2-88b1-769f79af10a6">
+<img width="297" alt="12" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/442138e1-caad-4d55-86e7-8d5ab0b38557">
 
 <br>
 
@@ -188,7 +196,7 @@
 
 <br>
 
-<img width="343" alt="domain users" src="https://github.com/kirkgacias/ad-deployment-configuration/assets/158519921/04eaffe2-1fa3-4c4c-a327-8ea5b63e2c24">
+<img width="343" alt="13" src="https://github.com/giovannibriones/ad-deployment-configuration/assets/163789590/31475ba9-6628-41c1-8aef-a11f896cb0e6">
 
 <p><strong>This will allow normal users to login to Client-01</strong></p>
 
@@ -200,7 +208,7 @@
 
 
 
-<h2> Final Thoughts </h2>
+<h2> In Conlusion </h2>
 
 <p>
 We've successfully concluded the Active Directory Deployment and Configuration phase. Through configuring Active Directory on the Domain Controller, we established our infrastructure by creating a forest, administrator account, and ultimately integrating Client-01 into the domain. In the upcoming project, we'll be generating users and simulating various Active Directory scenarios. </p>
