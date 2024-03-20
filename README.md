@@ -208,7 +208,7 @@
 
 
 
-<h2> In Conlusion </h2>
+<h2> In Conclusion </h2>
 
 <p>
 We've successfully concluded the Active Directory Deployment and Configuration phase. Through configuring Active Directory on the Domain Controller, we established our infrastructure by creating a forest, administrator account, and ultimately integrating Client-01 into the domain. In the upcoming project, we'll be generating users and simulating various Active Directory scenarios. </p>
