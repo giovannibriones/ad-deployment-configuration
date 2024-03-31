@@ -211,5 +211,5 @@
 <h2> In Conclusion </h2>
 
 <p>
-We've successfully completed the second part of this tutorial. Through configuring Active Directory on the Domain Controller, we grounded our infrastructure by creating a forest, administrator account, and at the very end of it all, integrating Client-01 into the domain. In the third and final part of this tutorial, users will be generated and various Active Directory situations will be simulated. </p>
+We've successfully completed the second part of this tutorial. Through configuring Active Directory on the Domain Controller, we grounded our infrastructure by creating a forest, administrator account, and at the very end of it all, integrating Client-01 into the domain. In the third part of this tutorial, users will be generated and various Active Directory situations will be simulated. </p>
 
